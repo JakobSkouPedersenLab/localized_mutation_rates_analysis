@@ -7,6 +7,7 @@ This repository contains the key scripts used for the analysis and to produce th
 To navigate the analysis, please refer to the directory overview below.
 
 ## Directory overview
+```
 data_cleaning/	 	      # Filter genomic regions in PCAWG dataset and data cleaning
 kmer_counting/          # Count 11-mers occurrences in the reference genome and mutations in the PCAWG dataset
 kmer_logos/	          	# Run k-mer logo software with custom background 11-mer set
@@ -18,3 +19,4 @@ signature_analysis/	    # Analysis of mutational signatures
 genome_stratification/	# Steps to stratify the genome into increasingly smaller parts
 overall_rates_seqlogos/	# Plot mutation rate and sequence motif changes across genome stratifications
 miscellaneous/	        # Additional analyses (APOBEC, repeat-elements, bimodal mutation rates)
+```
